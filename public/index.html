@@ -1,0 +1,77 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Conversa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body>
+    <div id="conteudo">
+        <div id='sala'></div>
+        <div id='lista-salas'></div>
+        <div id="area-uno">
+            <div id="jogadores">
+                <!--
+            </div>
+            <div id="carta-meio" class="unoCarta">
+                <img class="unoCarta" src="unoCartas/7vermelho.png">
+            </div>
+            <div id="mao-uno">
+                <img class="unoCarta" src="unoCartas/3amarelo.png">
+                <img class="unoCarta" src="unoCartas/3azul.png">
+                <img class="unoCarta" src="unoCartas/12amarelo.png">
+                <img class="unoCarta" src="unoCartas/7vermelho.png">
+                <img class="unoCarta" src="unoCartas/3verde.png">
+                <img class="unoCarta" src="unoCartas/6verde.png">
+                <img class="unoCarta" src="unoCartas/2verde.png">
+                <img class="unoCarta" src="unoCartas/1azul.png">
+            </div>
+        </div>-->
+        <div id='mensagens'></div>
+
+        <form id='enviar-form'>
+            <input id='enviar-mensagem' type="text" placeholder="Escreva sua mensagem aqui.">
+            <input id='botao-enviar' type='submit' value='Enviar'>
+        </form>
+    </div>
+
+
+
+    <form id="mudancas">
+        <input id="mudarNome" type="button" value="Mudar nome">
+        <div id="mudancaNome">
+            <p>Insira o novo nome</p>
+            <input id="novoNome" type="text" autocomplete="off">
+            <input id="salvarNovoNome" type="button" value="Salvar">
+        </div>
+        <input id="mudarSala" type="button" value="Mudar de sala">
+        <div id="mudancaSala">
+            <p>Insira a sala que deseja entrar.</p>
+            <p>Obs: se a sala não existir, ela será criada.</p>
+            <input id="novaSala" type="text" autocomplete="off">
+            <input id="salvarNovaSala" type="button" value="Entrar">
+        </div>
+        <input id="jogarDado" type="button" value="Jogar dado">
+        <div id="quantosLados">
+            <p>Insira o numero de lados do dado que você vai jogar.</p>
+            <p>Obs: se não colocar um número, será rolado um dado de 6 lados.</p>
+            <input id="numeroLados" type="text" autocomplete="off">
+            <input id="jogarODado" type="button" value="Jogar">
+    </form>
+
+
+
+
+
+    <script src='/socket.io/socket.io.js' type='text/javascript'></script>
+    <script src='javascript/jquery-3.3.1.js' type='text/javascript'></script>
+    <script src='javascript/chat.js' type='text/javascript'></script>
+    <script src='javascript/chat_ui.js' type='text/javascript'></script>
+
+</body>
+
+</html>

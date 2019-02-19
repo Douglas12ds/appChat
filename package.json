@@ -1,0 +1,9 @@
+{
+    "name": "sala de conversa",
+    "version": "0.0.3",
+    "description": "Um servidor de conversa com muitas salas",
+    "dependencies": {
+        "mime": "^2.4.0",
+        "socketio": "^1.0.0"
+    }
+}

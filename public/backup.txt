@@ -1,0 +1,51 @@
+    <div id="mao-uno">
+        <div class="carta-uno-formato">
+            <div class="carta-uno-circulo">
+                <div class="carta-uno-conteudo">
+                    <h1 id="valor-carta">7</h1>
+                </div>
+            </div>
+        </div>
+        <div class="carta-uno-formato">
+            <div class="carta-uno-circulo">
+                <div class="carta-uno-conteudo">
+                    <h1 id="valor-carta">7</h1>
+                </div>
+            </div>
+        </div>
+        <div class="carta-uno-formato">
+            <div class="carta-uno-circulo">
+                <div class="carta-uno-conteudo">
+                    <h1 id="valor-carta">7</h1>
+                </div>
+            </div>
+        </div>
+        <div class="carta-uno-formato">
+            <div class="carta-uno-circulo">
+                <div class="carta-uno-conteudo">
+                    <h1 id="valor-carta">7</h1>
+                </div>
+            </div>
+        </div>
+        <div class="carta-uno-formato">
+            <div class="carta-uno-circulo">
+                <div class="carta-uno-conteudo">
+                    <h1 id="valor-carta">7</h1>
+                </div>
+            </div>
+        </div>
+        <div class="carta-uno-formato">
+            <div class="carta-uno-circulo">
+                <div class="carta-uno-conteudo">
+                    <h1 id="valor-carta">7</h1>
+                </div>
+            </div>
+        </div>
+        <div class="carta-uno-formato">
+            <div class="carta-uno-circulo">
+                <div class="carta-uno-conteudo">
+                    <h1 id="valor-carta">7</h1>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,5 @@
+var namespace = '/';
+var roomName = 'my_room_name';
+for (var socketId in io.nsps[namespace].adapter.rooms[roomName]) {
+    console.log(socketId);
+}
